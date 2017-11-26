@@ -1,0 +1,15 @@
+{
+  "musicData": [{
+    "title": "亡命之徒-TV.ver",
+    "author": "林方舟",
+    "src": "/static/music/亡命之徒-TV.ver.mp3",
+    "musicImgSrc": "/static/music_albums/亡命之徒-TV.ver.jpg",
+    "lrc": "/static/lyrics/亡命之徒-TV.ver.lrc"
+  }, {
+    "title": "末路之徒-TV.ver",
+    "author": "洛萱",
+    "src": "/static/music/末路之徒-TV.ver.mp3",
+    "musicImgSrc": "/static/music_albums/亡命之徒-TV.ver.jpg",
+    "lrc": "/static/lyrics/末路之徒-TV.ver.lrc"
+  }]
+}
