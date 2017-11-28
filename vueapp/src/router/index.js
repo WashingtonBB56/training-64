@@ -34,10 +34,10 @@ export default new Router({
       redirect: '/music/rankingList',
       children: [
         {
-          path: '/rankingList',
+          path: 'rankingList',
           component: RankingList
         },{
-          path: '/songList',
+          path: 'songList',
           component: SongList
         }
       ]
