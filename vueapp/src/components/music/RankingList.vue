@@ -1,6 +1,5 @@
 <template>
-  <div>
-  </div>
+  <ul></ul>
 </template>
 
 <script>

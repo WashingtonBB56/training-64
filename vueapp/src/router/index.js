@@ -6,7 +6,7 @@ import MovieList from '@/components/movie/MovieList'
 
 import Music from '@/components/music/Music'
 import RankingList from '@/components/music/RankingList'
-// import SongList from '@/components/music/SongList'
+import SongList from '@/components/music/SongList'
 
 import Book from '@/components/book/Book'
 import Picture from '@/components/picture/Picture'
@@ -31,10 +31,14 @@ export default new Router({
     },{
       path: '/music',
       component: Music,
+      redirect: '/music/rankingList',
       children: [
         {
           path: '/rankingList',
           component: RankingList
+        },{
+          path: '/songList',
+          component: SongList
         }
       ]
     },{
