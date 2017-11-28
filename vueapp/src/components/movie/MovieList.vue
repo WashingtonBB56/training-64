@@ -26,32 +26,37 @@ export default {
   },
   //钩子函数
   mounted() {
-    this.loadData();
+//    this.loadData();
+    let url2='/static/data/moviedata-2017-11-25.json';
+    Axios.get(url2)
+      .then(res=>{
+        this.movieList = res.data.data.movies;
+      })
   },
   methods: {
-    loadData() {
-      //    let url1=API_PROXY+'接口'+this.moveList.length;
-      let url2='/static/data/moviedata-2017-11-25.json';
-      Axios.get(url2)
-        .then(res=>{
-          this.loadingShow=false;
-          let list = res.data.data.movies;
-//          假分页实现异步分页，slice函数进行数据截取
-          let data = list.slice(
-            this.moveList.length,
-            this.moveList.length + 10
-          );
-          if (data.length < 10) {
-            this.tip = true;
-          }
-          this.moveList = this.moveList.concat(data);
-        })
-        .catch(()=>{});
-      },
-      goDetail(movieId){
-        this.$router.push('/movie/movieDetail/'+ movieId);
+//    loadData() {
+//      //    let url1=API_PROXY+'接口'+this.moveList.length;
+//      let url2='/static/data/moviedata-2017-11-25.json';
+//      Axios.get(url2)
+//        .then(res=>{
+//          this.loadingShow=false;
+//          let list = res.data.data.movies;
+////          假分页实现异步分页，slice函数进行数据截取
+//          let data = list.slice(
+//            this.moveList.length,
+//            this.moveList.length + 10
+//          );
+//          if (data.length < 10) {
+//            this.tip = true;
+//          }
+//          this.moveList = this.moveList.concat(data);
+//        })
+//        .catch();
+//      },
+//      goDetail(movieId){
+//        this.$router.push('/movie/movieDetail/'+ movieId);
       }
-  }
+
 }
 </script>
 

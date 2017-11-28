@@ -22,6 +22,7 @@ export default new Router({
     },{
       path: '/movie',
       component: Movie,
+      redirect: '/movie/movieList',
       children: [
         {
           path: 'movieList',
@@ -37,7 +38,7 @@ export default new Router({
           path: 'rankingList',
           component: RankingList
         },{
-          path: 'songList',
+          path: 'songList/:musicId',
           component: SongList
         }
       ]
