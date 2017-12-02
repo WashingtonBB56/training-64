@@ -1,5 +1,5 @@
 <template>
-  <div class="music">
+  <div  class="clearfix main-inner">
     <!--aplayer usage-->
     <!--<a-player autoplay :music="{-->
     <!--title: 'Preparation',-->
@@ -8,7 +8,7 @@
     <!--pic: 'http://devtest.qiniudn.com/Preparation.jpg',-->
     <!--lrc: '[00:00.00]lrc here\n[00:01.00]aplayer'-->
     <!--}"></a-player>-->
-    <a-player v-if="isShow" :autoplay="true" :music="songs" :showlrc="5"></a-player>
+    <a-player v-if="isShow" :autoplay="true" :music="songs" :showlrc="3"></a-player>
   </div>
 </template>
 
@@ -47,9 +47,6 @@ export default {
   }
 </script>
 <style scoped>
-  .music{
-    margin:1rem 0;
-  }
   .aplayer{
     margin:0;
   }

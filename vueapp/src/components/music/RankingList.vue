@@ -1,5 +1,5 @@
 <template>
-  <ul>
+  <ul  class="clearfix main-inner">
     <li :key='music.id' v-for="music in rankingList">
       <!--static内的一般是静态数据-->
       <!--assets内数据一般是动态数据-->
@@ -29,9 +29,6 @@
   };
 </script>
 <style scoped>
-  ul{
-    margin: 1rem 0;
-  }
   ul li{
     float:left;
     width:50%;

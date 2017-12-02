@@ -1,5 +1,5 @@
 <template>
-    <ul>
+    <ul  class="clearfix main-inner">
       <li v-for="movie in movieList" :key="movie.id" class="movie">
         <div class="movie-img">
           <img :src="movie.img" alt="#">
