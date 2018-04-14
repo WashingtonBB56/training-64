@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #top{
+            height:50px;
+            background:yellow;
+        }
+        #left{
+            background: red;
+        }
+        #right{
+            background: green;
+        }
+        #bottom{
+            height:200px;
+            background:blue;
+        }
+        @media (max-width: 480px){
+            #right{
+                width:100%;
+                position:absolute;
+                top:0;
+            }
+        }
+        @media (min-width: 480px){
+            #left{
+                width:200px;
+                float: left;
+            }
+            #right{
+                margin-left: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="top">导航</div>
+    <div id="left">这是侧边栏</div>
+    <div id="right">高度由内容撑开</div>
+    <div id="bottom">底部介绍</div>
+</div>
+<!--++++2.-->
+<!--<h1 class="h1" id="h1" style="color:orange;">test</h1>-->
+<!--<style>-->
+    <!--h1 {-->
+        <!--color: blue;-->
+    <!--}-->
+
+    <!--.h1 {-->
+        <!--color: red !important;-->
+    <!--}-->
+
+    <!--#h1 {-->
+        <!--color: purple;-->
+    <!--}-->
+<!--</style>-->
+
+<!--++++3.-->
+<!--<div class="container">-->
+    <!--<div class="item">1</div>-->
+    <!--<div class="item">2</div>-->
+    <!--<div class="item">3</div>-->
+    <!--<div class="item">4</div>-->
+<!--</div>-->
+<!--<style>-->
+    <!--.container{-->
+        <!--display: flex;-->
+        <!--color:white;-->
+    <!--}-->
+    <!--.item{-->
+        <!--flex:1;-->
+        <!--display: flex;-->
+        <!--align-items: center;-->
+        <!--justify-content: center;-->
+        <!--height: 60px;-->
+        <!--background-color:darkgrey;-->
+        <!--margin:5px;-->
+    <!--}-->
+<!--</style>-->
+
+
+
+
+</body>
+<!--<script>-->
+<!--//    添加两个100px红色正方形到body中，三秒后移出-->
+  <!--function Box(w, h, c) {-->
+    <!--this.width = w;-->
+    <!--this.height = h;-->
+    <!--this.bgColor = c;-->
+  <!--}-->
+  <!--Box.prototype.addTo = function(selector){-->
+    <!--this.holder = [];-->
+    <!--var s = selector.charAt(0);-->
+    <!--switch(s){-->
+      <!--case '#':-->
+        <!--this.holder.push[document.getElementById(selector.substr(1))];-->
+        <!--break;-->
+      <!--case '.':-->
+        <!--this.holder = document.getElementsByClassName(selector.substr(1));-->
+        <!--break;-->
+      <!--default:-->
+        <!--this.holder = document.getElementsByTagName(selector);-->
+    <!--}-->
+    <!--this.box = document.createElement('div');-->
+    <!--this.box.style.width = this.width + 'px';-->
+    <!--this.box.style.height = this.height + 'px';-->
+    <!--this.box.style.backgroundColor = this.bgColor;-->
+    <!--this.holder[0].appendChild(this.box);-->
+    <!--return this;-->
+  <!--};-->
+  <!--Box.prototype.delay = function(time){-->
+    <!--this.delay = time;-->
+    <!--return this;-->
+  <!--};-->
+  <!--Box.prototype.remove = function(){-->
+    <!--var that = this;-->
+    <!--if(this.delay){-->
+      <!--setTimeout(function(){-->
+        <!--that.holder[0].removeChild(that.box);-->
+      <!--}, this.delay);-->
+    <!--}else{-->
+      <!--this.holder[0].removeChild(this.box);-->
+    <!--}-->
+  <!--};-->
+  <!--new Box(100,100,'red').addTo('body').addTo('body').delay(3).remove();-->
+<!--</script>-->
+
+<!--<script>-->
+<!--//    键值对象按照ACSII编码从小到大排序-->
+  <!--var o = {-->
+    <!--a: 'A',-->
+    <!--console: 'log',-->
+    <!--c: 'C',-->
+    <!--ajax: 'Ajax',-->
+    <!--react: 'React',-->
+    <!--refresh: 'F5',-->
+    <!--vuex: 'Vuex',-->
+    <!--vue: 'Vue.js'-->
+  <!--};-->
+
+  <!--function sortKey(obj){-->
+    <!--var rs  = [];-->
+    <!--for(var p in obj){-->
+      <!--rs.push(p);-->
+    <!--}-->
+    <!--return rs.sort();-->
+  <!--}-->
+  <!--console.log(sortKey(o));-->
+<!--</script>-->
+
+<!--<script>-->
+<!--//    正则匹配:-->
+  <!--function checkCaptcha(password){-->
+    <!--var re = /^[a-zA-Z][a-zA-Z0-9\.\-_]{4,14}$/;-->
+    <!--return re.test(password)?'密码格式正确':'密码格式错误';-->
+  <!--}-->
+  <!--console.log(checkCaptcha("1234Aa_."));-->
+<!--</script>-->
+<!--<script src="CardGame.js"></script>-->
+
+<!--<script>-->
+    <!--setTimeout(function(){-->
+      <!--console.log(start);-->
+      <!--new Promise(function(resolve,reject){-->
+        <!--resolve(true);-->
+        <!--reject(false);-->
+        <!--console.log(1);-->
+      <!--}).then(function(){-->
+        <!--setTimeout('var x=2;console.log(2)');-->
+        <!--console.log(a);-->
+      <!--},function(){-->
+        <!--setTimeout('var x=3;console.log(3)');-->
+        <!--console.log(b);-->
+      <!--}).then(function(){-->
+        <!--console.log(4);-->
+      <!--},function(){-->
+        <!--console.log(5);-->
+      <!--}).catch(function(){-->
+        <!--console.log(6);-->
+      <!--})-->
+    <!--},0)-->
+    <!--setTimeout(function(){-->
+      <!--const timer = setInterval(function(){-->
+        <!--console.log(7);-->
+      <!--},10)-->
+      <!--const start= Date.now();-->
+      <!--setTimeout(function(){-->
+        <!--while(Date.now()-start <= 30){}-->
+        <!--clearTimeout(timer);-->
+        <!--try{-->
+          <!--console.log(x);-->
+        <!--}catch(e){-->
+          <!--console.log(8);-->
+        <!--}-->
+      <!--},13)-->
+    <!--})-->
+<!--</script>-->
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>这是h1,是块级元素</h1>
+    <h2>这是h2,是块级元素</h2>
+    <h3>这是h3,是块级元素</h3>
+    <h4>这是h4,是块级元素</h4>
+    <h5>这是h5,是块级元素</h5>
+    <h6>这是h6,是块级元素</h6>
+    <hr>
+    <p>这是p标签，是块级元素，自带上下16px外边距</p>
+    <hr>
+    <div>这是div，是块级元素</div>
+    <hr>
+    <ul>
+        <li>块级元素</li>
+        <li>无序ul，有序ol</li>
+        <li>默认圆点list-style属性是li的</li>
+        <li>ul/ol设置list-style有效是因为属性是可以继承的</li>
+    </ul>
+    <hr>
+    <a href="#">一个a标签，是行级元素</a>
+    <br>
+    <a href="#" style='text-decoration:none'>一个没有下划线的a标签，text-decoration：none</a>
+    <hr>
+    <img src="img/星星.png" alt="+" title="title是鼠标移动到图片上显示的" content="是行级元素">
+    <br>
+    <img src="#" alt="alt是图标加载失败现实的" title="这是鼠标移动到图片上显示的">
+    <hr>
+
+
+<!--6.img{border:0} ie6的a标签包裹img标签图片会有白色下边框-->
+
+<!--10.行级元素不能设置宽和高，为内容宽度：span,a,img,input.textarea,button,-->
+<!--11.块级元素不设置宽高，宽度充满父元素，高度为内容的高度：p,div,h1-h6,ul,ol,li-->
+<!--12.行块转换display：block，inline，inline-block，none，box弹，table，table-cell-->
+
+<!--13.脱离文档流可以设置寛高-->
+<!--14.语义化标签：便于搜索引擎优化，便于维护，便于阅读-->
+
+<!--16.常用转义字符：&nbsp; /&lt;</&gt;>-->
+15.form表单：name‘后台确定的接收的input的值’
+同步获取焦点：label标签for‘username’，并列input标签id‘username’/将input直接放入label标签
+下拉菜单：select-option选项
+复选 input-type‘checkbox’ 单选input-type：radio
+type‘reset’
+button type‘button’不会提交表单，提交时会触发form表单onsubmit=‘’事件
+
+</body>
+</html>
