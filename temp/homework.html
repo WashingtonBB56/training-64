@@ -13,6 +13,15 @@
             margin:150px auto;
             background: #42406f;
         }
+        .title{
+            padding-top:40px;
+            text-align: center;
+            vertical-align:middle;
+            color:#fff;
+            font-weight: 400;
+            font-size: 35px;
+            text-shadow: rgba(255, 148, 180, 0.95) 5px 5px 0;
+        }
         .right{
             margin:150px 300px;
         }
@@ -22,6 +31,10 @@
             margin:20px;
         }
         .input-name,.input-pass{
+            width:180px;
+            height:30px;
+            font-size:16px;
+            border-radius: 5px;
             background: #f6cbc8;
             color:#42406f;
             padding:10px 15px;
@@ -43,11 +56,14 @@
                 <!--<p>“要为他谱出新歌，并且弹得巧妙，唱得动听”<br>——33:3</p>-->
             <!--</div>-->
             <div class="right">
-                <input type="text" name="name" placeholder="Your Name" class="input-name">
-                <br>
-                <input type="password" name="password" placeholder="Your Password" class="input-pass">
-                <br>
-                <input type="submit" name="submit" placeholder="Your Password" class="submit" value="提交">
+                <h6 class="title">LOGIN</h6>
+                <form action="login.html" method="post">
+                    <input type="text" name="name" placeholder="Your Name" class="input-name">
+                    <br>
+                    <input type="password" name="password" placeholder="Your Password" class="input-pass">
+                    <br>
+                    <input type="submit" name="submit" class="submit" value="提交">
+                </form>
             </div>
         </div>
     </div>
