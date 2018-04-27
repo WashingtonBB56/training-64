@@ -17,4 +17,12 @@ https://cn.vuejs.org/v2/guide/transitions.html
   v-leave-to: 2.1.8版及以上 定义离开过渡的结束状态。在离开过渡被触发一帧后生效 (于此同时 v-leave 被删除)，在 transition/animation 完成之后移除。
 4.对于这些在 enter/leave 过渡中切换的类名，v- 是这些类名的前缀。使用 <transition name="my-transition"> 可以重置前缀，比如 v-enter 替换为 my-transition-enter。
 5.css3的cubic-bezier(贝塞尔曲线)(4个参数<=1)
-6.
+--------------------
+1.v-if/v-else 不显示dom结构
+v-show 相当于dom属性display：none
+2.v-for='name in list' 循环列表 data:{list:['']}
+3.computed :{内部函数名字不能跟data已定义名字重复}
+computed :{不能直接应用data内定义数据——this.dataName.method()}
+升序排序：this.arr.sort(function(a,b){return a-b})
+4.data内定义的对象的属性key，value，index
+
