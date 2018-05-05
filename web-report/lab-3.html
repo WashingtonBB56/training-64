@@ -4,12 +4,24 @@
     <meta charset="UTF-8">
     <title>实验三</title>
     <style>
+        button{
+            border:none;
+            padding:10px;
+            border-radius: 3px;
+        }
         .banner>img{
             width:100%;
         }
         .container{
             width:1400px;
             margin:auto;
+        }
+        .detail{
+            background: #fff;
+            border:1px #000 solid;
+            float:right;
+            margin-right:50px;
+            margin-top:10px;
         }
         .partner-logo{
             height:50px;
@@ -26,20 +38,58 @@
         }
         .learn-more{
             background: #2073D4;
-            padding:10px;
+            color:#fff;
+            position:relative;
+            left:50%;
+            right:50%;
+            transform: translateY(-50%);
+            transform: translateX(-50%);
         }
         .top-spe-content{
             width:210px;
+            border:solid 1px #ccc;
+            display:inline-block;
+            margin-right:25px;
         }
         .top-spe-content>img{
             width:100%;
             overflow: hidden;
+            border-bottom: solid 1px #ccc;
+        }
+        .spe-img{
+            color:#b0914f;
+        }
+        .head-right{
+            float:right;
+        }
+        .header-top{
+            margin-left:80px;
+            margin-right:80px;
+        }
+        input{
+            height:30px;
+        }
+        .banner-text{
+            display:inline-block;
+            color:#fff;
+            position:absolute;
+            top:100px;
+            left:100px;
         }
     </style>
 </head>
 <body>
 <div class="header">
+    <div class="header-top">
+        <button>目录</button>
+        <input type="text" name="search" class="search">
+        <span class="head-right">企业版|<a href="#"></a>登录</span>
+    </div>
     <div class="banner">
+        <div class="banner-text">
+            <h3>在网上学习全世界最好的课程</h3>
+            <button class="learn-more join">免费加入</button>
+        </div>
         <img src="img/banner-baseline.png" alt="#">
     </div>
 </div>
@@ -82,6 +132,30 @@
                 <button class="detail">查看全部</button>
             </div>
             <div>
+                <div class="top-spe-content">
+                    <img src="img/dlai-logo-final-minus-font-plus-white-backg.png" alt="#">
+                    <h3 class="spe-img">deeplearning.ai</h3>
+                    <h3 class="spe-title">Deep Learning</h3>
+                    <span>5门课程</span>
+                </div>
+                <div class="top-spe-content">
+                    <img src="img/dlai-logo-final-minus-font-plus-white-backg.png" alt="#">
+                    <h3 class="spe-img">deeplearning.ai</h3>
+                    <h3 class="spe-title">Deep Learning</h3>
+                    <span>5门课程</span>
+                </div>
+                <div class="top-spe-content">
+                    <img src="img/dlai-logo-final-minus-font-plus-white-backg.png" alt="#">
+                    <h3 class="spe-img">deeplearning.ai</h3>
+                    <h3 class="spe-title">Deep Learning</h3>
+                    <span>5门课程</span>
+                </div>
+                <div class="top-spe-content">
+                    <img src="img/dlai-logo-final-minus-font-plus-white-backg.png" alt="#">
+                    <h3 class="spe-img">deeplearning.ai</h3>
+                    <h3 class="spe-title">Deep Learning</h3>
+                    <span>5门课程</span>
+                </div>
                 <div class="top-spe-content">
                     <img src="img/dlai-logo-final-minus-font-plus-white-backg.png" alt="#">
                     <h3 class="spe-img">deeplearning.ai</h3>
