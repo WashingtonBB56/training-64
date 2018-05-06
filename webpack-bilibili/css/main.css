@@ -19,7 +19,11 @@ nav{
 }
 .banner {
     width: 100%;
+    /*height:100vh;*/
     z-index: 95;
+    border-bottom: 3px solid #3e1266;
+    margin-bottom: 200px;
+    cursor: pointer;
 }
 .banner-mask{
     position:relative;
@@ -33,10 +37,12 @@ nav{
     left:50%;
     top:50%;
     z-index: 99;
-    /*margin:70% auto;*/
+}
+.skip{
+    display:none;
 }
 .banner-img{
-    height:890px;
+    height:900px;
     padding:0;
     background: no-repeat;
     background-size: cover!important;
