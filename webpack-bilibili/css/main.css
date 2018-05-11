@@ -5,10 +5,11 @@
 ul，li{
     list-style: none;
 }
-/*body{*/
-    /*overflow:scroll;*/
-    /*overflow-x:hidden*/
-/*}*/
+img{
+    /*img默认是inline-block*/
+    display:block;
+    margin:0;
+}
 /*---------*/
 nav{
     margin-bottom: 0!important;
@@ -33,7 +34,7 @@ nav{
 }
 .banner-test{
     color:#fff;
-    position:relative;
+    position:absolute;
     left:50%;
     top:50%;
     z-index: 99;
@@ -57,3 +58,46 @@ nav{
 }.banner-img4{
     background: url("../images/2233/banner-4.jpg");
 }
+
+ .part1{
+     padding:0;
+     /*margin-right:50px;*/
+     color: #a9b7e3;
+ }
+
+ .right-top1{
+     position:absolute;
+     top: -56px;
+     right: -102px;
+     width: 306px;
+     height: 194px;
+     z-index:99;
+ }
+ .right-top2{
+     position:absolute;
+     z-index: 99;
+     top: -52px;
+     right: -26px;
+     width: 122px;
+     height: 151px;
+ }
+ .right-top3{
+     position:absolute;
+     z-index: 99;
+     top: -80px;
+     right: -40px;
+     width: 166px;
+     height: 187px;
+ }
+ .text1{
+     position: absolute;
+     left: 20px;
+     bottom: 120px;
+     font-size: 36px;
+     font-weight: 700;
+ }
+ .text2{
+     position: absolute;
+     left: 20px;
+     bottom: 30px;
+ }
