@@ -8,7 +8,11 @@ ul，li{
 img{
     /*img默认是inline-block*/
     display:block;
-    margin:0;
+}
+@media (min-width: 1400px) {
+    .container {
+        width: 1400px;
+    }
 }
 /*---------*/
 nav{
@@ -61,9 +65,20 @@ nav{
 
  .part1{
      padding:0;
-     /*margin-right:50px;*/
+     width: 360px;
+     height: 225px;
+     margin-right:50px;
+     position: relative;
+     display: inline-block;
      color: #a9b7e3;
  }
+.part1-1{
+    background: url("../images/data_image_jpeg;bas… (2).jpg");
+}.part1-2{
+     background: url("../images/data_image_jpeg;bas….jpg");
+}.part1-3{
+      background: url("../images/data_image_jpeg;bas… (1).jpg");
+}
 
  .right-top1{
      position:absolute;
