@@ -149,6 +149,8 @@ nav {
 .winner {
     width: 360px;
     height: 605px;
+    display: inline-block;
+    margin-right: 48px;
     background: url("../images/someone5.jpg") no-repeat;
 }
 
