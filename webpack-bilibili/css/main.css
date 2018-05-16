@@ -151,10 +151,10 @@ nav {
     height: 605px;
     display: inline-block;
     margin-right: 48px;
-    background: url("../images/someone5.jpg") no-repeat;
 }
 
 .winner-show {
     width: 360px;
     height: 460px;
+    background: url("../images/someone5.jpg") no-repeat;
 }
