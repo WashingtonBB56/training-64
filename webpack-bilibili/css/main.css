@@ -173,9 +173,37 @@ nav {
 }.event-title3{
       width: 668px;
       height: 102px;
-     background: url("../images/data_image_png;base… (4).png") no-repeat;
+      background: url("../images/data_image_png;base… (4).png") no-repeat;
 }.event-title4{
-       width: 497px;
-       height: 104px;
+     width: 497px;
+     height: 104px;
      background: url("../images/data_image_png;base… (24).png") no-repeat;
+}
+
+.event-content{
+    position: relative;
+}
+.event-content1{
+    width: 860px;
+    height: 700px;
+}
+
+.gift-carousel{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: contain;
+    width: 860px;
+    height: 520px;
+    background: url("../images/card-inner-4.0cbf03c.png");
+}
+.gift-icon{
+    top: -85px;
+    right: 160px;
+    width: 280px;
+    height: 276px;
+    position: absolute;
+    background: url("../images/high-2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
