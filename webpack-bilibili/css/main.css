@@ -227,10 +227,21 @@ nav {
     font-size: 18px;
 }
 /*--------*/
+.event2{
+    position: relative;
+}
 .e2-left{
-    position:relative;
+    color:#fff;
+    position:absolute;
     left:0;
     width: 680px;
     height: 470px;
     background: url("../images/data_image_png;base(white).png");
+}
+.e2-right{
+    position: absolute;
+    right:0;
+    width: 720px;
+    height: 470px;
+    background: url("../images/data_image_png;base… (18).png");
 }
