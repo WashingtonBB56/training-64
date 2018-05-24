@@ -207,3 +207,30 @@ nav {
     background-size: contain;
     background-repeat: no-repeat;
 }
+.gift-text{
+    position: absolute;
+    left: 100px;
+    color: #a9b7e3;
+    line-height: 40px;
+}
+.gift-name{
+    top: 34px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.gift-about{
+    top: 104px;
+    font-size: 18px;
+}
+.gift-info{
+    top: 244px;
+    font-size: 18px;
+}
+/*--------*/
+.e2-left{
+    position:relative;
+    left:0;
+    width: 680px;
+    height: 470px;
+    background: url("../images/data_image_png;base(white).png");
+}
