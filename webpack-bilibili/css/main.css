@@ -245,3 +245,18 @@ nav {
     height: 470px;
     background: url("../images/data_image_png;base… (18).png");
 }
+.e2-right>h3{
+    position: absolute;
+    right:60px;
+    color:#fff;
+}
+.e1-right-text{
+    top:60px;
+}
+.e2-right-title{
+    line-height: 90px;
+    font-size: 48px;
+}
+.e2-right-info{
+
+}
