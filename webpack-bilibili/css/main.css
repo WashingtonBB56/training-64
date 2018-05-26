@@ -228,7 +228,7 @@ nav {
 }
 /*--------*/
 .event2{
-    position: relative;
+    /*position: relative;*/
 }
 .e2-left{
     color:#fff;
@@ -238,6 +238,7 @@ nav {
     height: 470px;
     background: url("../images/data_image_png;base(white).png");
 }
+/*--------------*/
 .e2-right{
     position: absolute;
     right:0;
@@ -258,5 +259,20 @@ nav {
     font-size: 48px;
 }
 .e2-right-info{
-
+    top: 180px;
+    right: 80px;
+    line-height: 40px;
+    font-size: 18px;
+}
+/*-----*/
+.event-title3{
+    margin:156px auto 78px;
+    width:668px;
+    height:108px;
+    background: url("../images/data_image_png;base… (4).png");
+}
+.event-content3{
+    background:url("../images/data_image_png;base… (19).png");
+    width:1040px;
+    height:280px;
 }
