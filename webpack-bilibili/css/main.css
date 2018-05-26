@@ -160,20 +160,10 @@ nav {
 
 }
 
-.event-title{
-}
 .event-title1{
     width: 409px;
     height: 104px;
     background: url("../images/data_image_png;base… (22).png") no-repeat;
-}.event-title2{
-     width: 495px;
-     height: 103px;
-     background: url("../images/data_image_png;base… (20).png") no-repeat;
-}.event-title3{
-      width: 668px;
-      height: 102px;
-      background: url("../images/data_image_png;base… (4).png") no-repeat;
 }.event-title4{
      width: 497px;
      height: 104px;
@@ -183,6 +173,12 @@ nav {
 .event-content{
     position: relative;
 }
+.temp-test{
+    position: relative;
+    width: 1105px;
+    height: 500px;
+}
+/*---------------------------------------*/
 .event-content1{
     width: 860px;
     height: 700px;
@@ -226,9 +222,11 @@ nav {
     top: 244px;
     font-size: 18px;
 }
-/*--------*/
-.event2{
-    /*position: relative;*/
+/*------------------------------------*/
+.event-title2{
+    width: 495px;
+    height: 103px;
+    background: url("../images/data_image_png;base… (20).png") no-repeat;
 }
 .e2-left{
     color:#fff;
@@ -237,6 +235,19 @@ nav {
     width: 680px;
     height: 470px;
     background: url("../images/data_image_png;base(white).png");
+}
+.e2-left-title,.e2-left-text{
+    left:40px;
+    position: absolute;
+}
+.e2-left-title{
+    top:30px;
+    font-size:36px;
+}
+.e2-left-text{
+    top: 105px;
+    font-size: 18px;
+    line-height: 40px;
 }
 /*--------------*/
 .e2-right{
@@ -255,6 +266,7 @@ nav {
     top:60px;
 }
 .e2-right-title{
+    top:20px;
     line-height: 90px;
     font-size: 48px;
 }
@@ -264,12 +276,12 @@ nav {
     line-height: 40px;
     font-size: 18px;
 }
-/*-----*/
+/*------------------------------------------*/
 .event-title3{
+    width: 668px;
+    height: 102px;
+    background: url("../images/data_image_png;base… (4).png") no-repeat;
     margin:156px auto 78px;
-    width:668px;
-    height:108px;
-    background: url("../images/data_image_png;base… (4).png");
 }
 .event-content3{
     background:url("../images/data_image_png;base… (19).png");
