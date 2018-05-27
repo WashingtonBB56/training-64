@@ -288,3 +288,10 @@ nav {
     width:1040px;
     height:280px;
 }
+/*---------------------------------------------*/
+.item-icon{
+    background: url("../images/rich-king.png");
+    width:width: 255px;
+    height: 77px;
+    margin-top:20px;
+}
