@@ -289,9 +289,19 @@ nav {
     height:280px;
 }
 /*---------------------------------------------*/
+.item{
+        color:#fff;
+    width:815px;
+    height:211px;
+    left:50%;
+    transform: 0 -50%;
+}
+.item-info{
+    font-size: 18px;
+}
 .item-icon{
-    background: url("../images/rich-king.png");
-    width:width: 255px;
+    background: url("../images/rich-king.png") no-repeat center;
+    width: 255px;
     height: 77px;
     margin-top:20px;
 }
