@@ -277,16 +277,20 @@ nav {
     font-size: 18px;
 }
 /*------------------------------------------*/
+.event-content3{
+    width: 1101px;
+    height: 713px;
+}
 .event-title3{
     width: 668px;
     height: 102px;
     background: url("../images/data_image_png;base… (4).png") no-repeat;
     margin:156px auto 78px;
 }
-.event-content3{
+.e3.item{
     background:url("../images/data_image_png;base… (19).png");
-    width:1040px;
-    height:280px;
+    width: 1040px;
+    height: 280px;
 }
 /*---------------------------------------------*/
 .item{
@@ -321,4 +325,13 @@ nav {
     width: 840px;
     height: 340px;
     background: url("../images/SEFADIHAFSGBJHKKGFMKDJGSGHF.png");
+}
+.e3-calendar{
+    position: absolute;
+    left: -130px;
+    bottom: -10px;
+    width: 338px;
+    height: 295px;
+    background-size: contain;
+    background: url("../images/calendar.c1f7856.png");
 }
